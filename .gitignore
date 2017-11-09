@@ -1,14 +1,13 @@
-# Binaries for programs and plugins
-*.exe
-*.dll
+# Compiled object files, static and dynamic libs (shared objects)
+*.o
+*.a
 *.so
-*.dylib
+*.exe
+.DS_Store
+*/.vscode/*
 
-# Test binary, build with `go test -c`
-*.test
+# Folders
+_test
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
-
-# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
-.glide/
+# Backup files
+*~
